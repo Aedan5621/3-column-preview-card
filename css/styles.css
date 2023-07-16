@@ -131,3 +131,10 @@ img {
     border-radius: 0 0 10px 10px;
   }
 }
+
+@media (max-width: 1441px) and (min-width: 1439px) {
+    .grid-container {
+        margin-left: 300px;
+        width: 62%;
+    }
+}
