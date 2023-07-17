@@ -1,11 +1,11 @@
 body {
   font-size: 15px;
-  display: grid;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   min-height: 100vh;
   background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 h3 {
@@ -30,9 +30,12 @@ img {
 /**sections**/
 
 .grid-container {
-  margin-left: 340px;
   width: 61%;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 /**sedans**/
@@ -133,8 +136,8 @@ img {
 }
 
 @media (max-width: 1441px) and (min-width: 1439px) {
-    .grid-container {
-        margin-left: 300px;
-        width: 62%;
-    }
+  .grid-container {
+    margin-left: 300px;
+    width: 62%;
+  }
 }
